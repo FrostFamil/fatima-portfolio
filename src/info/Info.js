@@ -1,35 +1,35 @@
-import mock1 from "../img/mock1.png"
-import mock2 from "../img/mock2.png"
-import mock3 from "../img/mock3.png"
-import mock4 from "../img/mock4.png"
-import mock5 from "../img/mock5.png"
+import home1 from "../img/home/home1.jpg"
+import home2 from "../img/home/home2.jpg"
+import home3 from "../img/home/home3.jpg"
+import home4 from "../img/home/home4.jpg"
+import home5 from "../img/home/home5.jpg"
+import home6 from "../img/home/home6.jpg"
 
-/* Hi there! Thanks for checking out my portfolio template. Be sure to read the comments to get a better understanding of
-how to make this template work best for you! */
+import cake1 from "../img/cakeDecorations/cake1.jpg"
+import cake2 from "../img/cakeDecorations/cake2.jpg"
+import cake3 from "../img/cakeDecorations/cake3.jpg"
+import cake4 from "../img/cakeDecorations/cake4.jpg"
+
+import photo1 from "../img/photography/photo1.jpg"
+import photo2 from "../img/photography/photo2.jpg"
+import photo3 from "../img/photography/photo3.jpg"
+import photo4 from "../img/photography/photo4.jpg"
+import photo5 from "../img/photography/photo5.jpg"
+import photo6 from "../img/photography/photo6.jpg"
+import photo7 from "../img/photography/photo7.jpg"
+import photo8 from "../img/photography/photo8.jpg"
 
 export let colors = ["rgb(0,255,164)", "rgb(166,104,255)"];
-/*
-I highly recommend using a gradient generator like https://gradientgenerator.paytonpierce.dev/ to generate a pair of colors that you like.
-These colors will be used to style your name on the homepage, the background of your picture, and some other accents throughout
-the site.
- */
-
-
-/*
-So let's get started! Some of the info below is pretty self-explanatory, like 'firstName' and 'bio'. I'll try to explain anything
-that might not be obvious right off the bat :) I recommend looking at the template example live using "npm start" to get an idea
-of what each of the values mean.
- */
 
 export const info = {
     firstName: "Fatima",
     lastName: "Abaszada",
-    initials: "fa", // the example uses first and last, but feel free to use three or more if you like.
-    position: "Interior Designer",
-    selfPortrait: null, // don't change this unless you want to name your self-portrait in the "img" folder something else!
-    gradient: `-webkit-linear-gradient(135deg, ${colors})`, // don't change this either
+    initials: "FA",
+    position: "Interior Designer Enthusiast",
+    selfPortrait: null,
+    gradient: `-webkit-linear-gradient(135deg, ${colors})`,
     baseColor: colors[0],
-    miniBio: [ // these are just some "tidbits" about yourself. You can look at mine https://paytonjewell.github.io/#/ for an example if you'd like
+    miniBio: [
         {
             emoji: '☕',
             text: 'fueled by coffee'
@@ -59,9 +59,6 @@ export const info = {
             icon: "fa fa-linkedin",
             label: 'linkedin'
         },
-// Feel free to remove any of these that you don't have. I'll write an FAQ on how to add new ones later, let me know if you have a request for an icon!
-// Just change the links so that they lead to your social profiles.
-
     ],
     bio: "Hello! I'm Fatima Abaszada.",
     skills:
@@ -87,39 +84,83 @@ export const info = {
             label: 'cooking',
             emoji: '🌶'
         }
-// Same as above, change the emojis to match / relate to your hobbies or interests.
-// You can also remove the emojis if you'd like, I just think they look cute :P
     ],
-    portfolio: [ // This is where your portfolio projects will be detailed
+    homePortfolio: [
         {
-            title: "Project 1",
-            live: "https://paytonpierce.dev", //this should be a link to the live version of your project, think github pages, netlify, heroku, etc. Or your own domain, if you have it.
-            source: "https://github.com/paytonjewell", // this should be a link to the **repository** of the project, where the code is hosted.
-            image: mock1
+            title: "Home 1",
+            image: home1
         },
         {
-            title: "Project 2",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock2
+            title: "Home 2",
+            image: home2
         },
         {
-            title: "Project 3",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock3
+            title: "Home 3",
+            image: home3
         },
         {
-            title: "Project 4",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock4
+            title: "Home 4",
+            image: home4
         },
         {
-            title: "Project 5",
-            live: "https://paytonpierce.dev",
-            source: "https://github.com/paytonjewell",
-            image: mock5
-        }
+            title: "Home 5",
+            image: home5
+        },
+        {
+            title: "Home 6",
+            image: home6
+        },
+    ],
+    cakeDecorations: [
+        {
+            title: "Cake 1",
+            image: cake1
+        },
+        {
+            title: "Cake 2",
+            image: cake2
+        },
+        {
+            title: "Cake 3",
+            image: cake3
+        },
+        {
+            title: "Cake 4",
+            image: cake4
+        },
+    ],
+    photography: [
+        {
+            title: "Photography 1",
+            image: photo1
+        },
+        {
+            title: "Photography 2",
+            image: photo2
+        },
+        {
+            title: "Photography 3",
+            image: photo3
+        },
+        {
+            title: "Photography 4",
+            image: photo4
+        },
+        {
+            title: "Photography 5",
+            image: photo5
+        },
+        {
+            title: "Photography 6",
+            image: photo6
+        },
+        {
+            title: "Photography 7",
+            image: photo7
+        },
+        {
+            title: "Photography 8",
+            image: photo8
+        },
     ]
 }
